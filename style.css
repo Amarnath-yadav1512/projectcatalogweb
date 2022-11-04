@@ -169,15 +169,18 @@ a {
 
 .header .navbar a {
     margin: 0 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--black-color);
     border-bottom: 0.2rem solid transparent;
 }
 
 .header .navbar a.active,
+
 .header .navbar a:hover {
+    
     border-color: var(--main-color);
     padding-bottom: .5rem;
+    
 }
 
 .header .buttons button {
@@ -372,9 +375,8 @@ a {
 
 .about .row .image img {
     height: 50rem;
-    object-fit: contain;
+    object-fit: cover;
 }
-
 /* img  genel olarak düzenlendi */
 
 .about .row {
