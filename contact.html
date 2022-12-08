@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "./image/App_Logo_new.png">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contact-Projectcatalog</title>
@@ -45,7 +46,7 @@
     <h1 class="heading">contact <span>us</span> </h1>
     <div class="row">
             
-        <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7173104615913!2d73.3634204!3d22.2886958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1667560709798!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a href="#menu">menu</a>
+        <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7173104615913!2d73.3634204!3d22.2886958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1667560709798!5m2!1sen!2sin" width="600" height="450" style="border: 10px;  border-radius: 1rem; margin:2rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe><a href="#menu">menu</a>
         <form>
             <h3>get in touch</h3>
             <div class="inputBox">
@@ -58,7 +59,8 @@
             </div>
             <div class="inputBox">
                 <i class="fas fa-phone"></i>
-                <input type="number" placeholder="number">
+                <input type="tel" pattern="[0-9]{10}"   placeholder="number">
+               
             </div>
             <input type="submit" class="btn" value="contact now">
         </form>

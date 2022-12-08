@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --main-color: #373e98;
-    --black-color: #252525;
+    /* #373e98
+       #252525 */
+    --main-color: #88bdbc;
+    --black-color: #112d32;
     --border: 0.1rem solid rgba(255, 255, 255, 0.4);
 }
 
@@ -46,7 +48,21 @@ a {
 }
 
 .btn {
-    margin-top: 1rem;
+   
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    color:#fff ;
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+.image-about{
+    
+    width: 100%;
+    
+}
+.pdf{
     display: inline-block;
     padding: 2rem 3.75rem;
     border-radius: 30px;
@@ -54,8 +70,8 @@ a {
     color: #fff;
     background-color: var(--black-color);
     cursor: pointer;
+    margin: 0% 45% 0% 45%;
 }
-
 .btn:hover {
     opacity: 0.8;
 }
@@ -77,6 +93,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+    margin: 3rem;
 }
 
 .box {
@@ -313,6 +330,7 @@ a {
 
 
 /* ------------------------------------------projects SECTION */
+
 .projects .box-container .box .box-head {
     display: flex;
     flex-direction: column;
@@ -335,12 +353,15 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 200px;
 }
 
 .projects .box-container .box .box-bottom .info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    height:120px;
+   
 }
 
 .projects .box-container .box-bottom .info .price {
@@ -364,6 +385,13 @@ a {
 .projects .box-container .box-bottom .product-btn a i {
     font-size: 1.6rem;
     color: var(--main-color);
+}
+.amount{
+    color: #254E58;
+}
+.Username{
+    height: 20px;
+    color: #112d32 ;
 }
 
 /* ------------------------------------------projects SECTION */
@@ -396,7 +424,7 @@ a {
 
 .about .row .content p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #254E58;;
     padding: 1rem 0;
     line-height: 1.8;
 }
@@ -526,7 +554,7 @@ a {
 .blog .box-container .box-full .content p {
     font-size: 1.6rem;
     line-height: 1.8;
-    color: #ccc;
+    color: #254E58;;
     padding: 1rem 0;
 }
 
